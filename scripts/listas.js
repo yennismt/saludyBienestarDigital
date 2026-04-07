@@ -51,7 +51,7 @@ let sections1 = [
     Description:
       "El scrolling es un mal hábito que los jóvenes han desarrollado con el auge de las redes sociales. Deslizar el dedo por la pantalla durante horas se ha vuelto una acción automática, que incluso ocurre mientras se realizan tareas que requieren de mayor concentración. <br>" +
       "¿Pero cómo una simple acción puede lograr que pases tanto tiempo en el celular? Ariane Ling, del Departamento de Psiquiatría de NYU Langone, explica que los seres humanos «estamos predispuestos a querer saber qué es lo que está pasando; hace parte de nuestro proceso evolutivo». En sintonía con esto, nuestros celulares están diseñados para alimentarnos continuamente con información que nos interesa (BBC News Mundo, 2024).",
-    Image: "src/tentaculos.jpg",
+    Image: "src/Tentaculos.jpg",
   },
 ];
 
