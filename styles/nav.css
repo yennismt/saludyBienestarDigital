@@ -9,7 +9,7 @@ ul {
     to right,
     #CADCF6,
     #72A6ED
-  ); */
+  ); */ 
   height: 100px;
   grid-template-columns: 180px 200px 1fr;
 }

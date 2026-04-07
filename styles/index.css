@@ -14,7 +14,7 @@ html {
   grid-template-columns: repeat(3, 400px);
   gap: 100px;
 }
-
+ 
 .cards {
   display: flex;
   justify-content: center;

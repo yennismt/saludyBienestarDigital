@@ -1,37 +1,37 @@
 .slide {
-    position: relative;
-    min-width: 100%;
+  position: relative;
+  min-width: 100%;
 }
 
 .slide img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 /* Overlay oscuro */
 .slide::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.4);
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 /* Texto encima */
 .slide-text {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: white;
-    z-index: 2;
-    max-width: 60%;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  z-index: 2;
+  max-width: 60%;
 }
 
 .slide-title {
-    margin: 0 0 5px;
-    font-size: 24px;
+  margin: 0 0 5px;
+  font-size: 24px;
 }
 
 .slide-desc {
-    margin: 0;
-    font-size: 14px;
+  margin: 0;
+  font-size: 14px;
 }

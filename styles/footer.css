@@ -1,46 +1,46 @@
 .footer {
-    background: #2B3357;
-    color: #fff;
-    padding-top: 40px;
+  background: #2b3357;
+  color: #fff;
+  padding-top: 40px;
 }
 
 .footer-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 0 40px;
 }
 
 .footer-section h3,
 .footer-section h4 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-section p,
 .footer-section a {
-    color: #ccc;
-    font-size: 14px;
-    text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .footer-section a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .footer-section ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .footer-section li {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .footer-bottom {
-    text-align: center;
-    border-top: 1px solid #333;
-    margin-top: 30px;
-    padding: 15px;
-    font-size: 13px;
-    color: #aaa;
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 13px;
+  color: #aaa;
 }
