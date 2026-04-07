@@ -22,7 +22,7 @@ let podcast = [
     Title: "1. Entiende tu Mente",
     Description:
       "Ellos aseguran que no tienen la fórmula de la felicidad pero solo bastan 20 minutos para compartir contigo el mismo espacio y que puedas sentirte mejor. ",
-    Image: "../../src/id card entiende tu mente.jpg",
+    Image: "src/id card entiende tu mente.jpg",
     Link: "https://open.spotify.com/episode/5uKpZv6AGCQp8BBlCZwPev",
   },
   {
@@ -30,7 +30,7 @@ let podcast = [
     Title: "2. Se regalan Dudas",
     Description:
       "Son dos amigas lety y ash crearon un “ecosistema de herramientas para cuestionar todo lo que está a tu alrededor”",
-    Image: "../../src/id card se regalan dudas.jpg",
+    Image: "src/id card se regalan dudas.jpg",
     Link: "https://open.spotify.com/episode/4FgUamII15MTIhAUJWbfbb",
   },
   {
@@ -38,7 +38,7 @@ let podcast = [
     Title: "3. El Podcast de cristina mildre",
     Description:
       "La escritora y periodista todas las semanas habla con un profesional acerca de temas de salud, bienestar y nutrición.",
-    Image: "../../src/id card el podcast.jpg",
+    Image: "src/id card el podcast.jpg",
     Link: "https://open.spotify.com/episode/45rPHfKXlkHRvHZ35tEURm",
   },
 ];
@@ -51,7 +51,7 @@ let sections1 = [
     Description:
       "El scrolling es un mal hábito que los jóvenes han desarrollado con el auge de las redes sociales. Deslizar el dedo por la pantalla durante horas se ha vuelto una acción automática, que incluso ocurre mientras se realizan tareas que requieren de mayor concentración. <br>" +
       "¿Pero cómo una simple acción puede lograr que pases tanto tiempo en el celular? Ariane Ling, del Departamento de Psiquiatría de NYU Langone, explica que los seres humanos «estamos predispuestos a querer saber qué es lo que está pasando; hace parte de nuestro proceso evolutivo». En sintonía con esto, nuestros celulares están diseñados para alimentarnos continuamente con información que nos interesa (BBC News Mundo, 2024).",
-    Image: "../../src/tentaculos.jpg",
+    Image: "src/tentaculos.jpg",
   },
 ];
 
@@ -62,7 +62,7 @@ let sections2 = [
       "¿Qué le pasa a tu cerebro cuando te desplazas por la pantalla y por qué pierdes la noción del tiempo?",
     Description:
       "Bajo esta dinámica, el cerebro alcanza el denominado estado de flujo. Este fenómeno psicológico ocurre cuando un individuo se sumerge en una acción de tal manera que su atención queda totalmente absorbida, resultando en una pérdida de la percepción del tiempo y del entorno.",
-    Image: "../../src/fondo verde.png",
+    Image: "src/fondo verde.png",
     Frase:
       "“Si estás scrolleando constantemente, <br> se convierte en la experiencia por defecto. <br> Y entonces, es muy difícil enfocar tu atención y <br>tu tiempo en otra cosa”",
   },
