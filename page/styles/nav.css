@@ -1,0 +1,175 @@
+ul {
+  display: grid;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  /* background-image: linear-gradient(
+    to right,
+    #CADCF6,
+    #72A6ED
+  ); */
+  height: 100px;
+  grid-template-columns: 180px 200px 1fr;
+}
+
+.buttonSearch {
+  height: 40px; 
+  width: 50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0;
+  background-color: white;
+}
+.logo { 
+  margin-left: 50px;
+  width: 100px;
+  height: 100px;
+  background-image: url(../src/Flaticon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  grid-column: 1 / 2;
+  object-fit: cover;
+}
+
+.textLogo {
+  grid-column: 2 / 3;
+  align-content: center;
+}
+
+.options {
+  display: flex;
+  grid-column: 3/ 4;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.option {
+  float: left;
+}
+
+.option > a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 40px 20px;
+  text-decoration: none;
+}
+
+.option > a:hover {
+  background-color: #E5CDFE;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.nav > li {
+  float: left;
+}
+
+.SubOptions > a {
+  background-color: #5080cb;
+  color: #fff;
+  text-decoration: none;
+  padding: 17px 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.SubOptions > a:hover {
+  background-color: #616ebb;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  /* min-width:5px; */
+}
+.ulSubOptions {
+  display: none;
+  position: absolute;
+  height: 160px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 110px;
+    margin-left: 20px;
+  }
+  .options {
+    margin-right: 20px;
+  }
+
+  .inputSearch {
+    height: 30px;
+    padding-left: 30px;
+  }
+
+  .buttonSearch {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .logo {
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .option > a {
+    margin-right: 0px;
+    font-size: 12px;
+    padding: 40px 5px;
+  }
+
+  .ulSubOptions {
+    height: 150px;
+    font-size: 12px;
+  }
+  .SubOptions > a {
+    padding: 18px 5px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .logo {
+    justify-self: center;
+    align-self: start;
+    height: 40px;
+    width: 100px;
+    margin-top: 6px;
+    grid-column: 1;
+  }
+  .options {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin-right: 0px;
+    font-size: 13px;
+  }
+
+  .search {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    height: 30px;
+    margin: 10px;
+    margin-top: 0;
+  }
+
+  li a {
+    padding: 10px 16px;
+  }
+}

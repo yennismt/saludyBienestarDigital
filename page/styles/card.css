@@ -1,0 +1,61 @@
+.card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease;
+    margin: 50px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    display: grid;
+    gap: 10px;
+    padding: 15px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-description {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 400px;
+    margin: 10px;
+}
+}
+
+@media screen and (max-width: 700px) {
+
+ .card {
+    width: 400px;
+    margin: 10px;
+}
+}
