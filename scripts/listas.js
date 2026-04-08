@@ -111,8 +111,9 @@ let sectionsMM = [
       "¿Por qué consultar WhatsApp mientras estudias afecta a tu capacidad para retener información y cuánto tiempo tardas en volver a concentrarte?. <br>" +
       "¿Sabías que nuestra capacidad de atención se ha reducido de 2 minutos a solo 47 segundos? . <br>" +
       "Imagina que estás estudiando y recibes una notificación de WhatsApp. Aunque intentes resistir, el impulso de revisar el celular suele ser incontrolable. Este pequeño acto no es inofensivo: afecta drásticamente el tiempo que necesitas para retomar la concentración y volver al ritmo de la actividad que interrumpiste.",
-    Image: "https://mupitiactualidad.com/wp-content/uploads/2020/12/salud-y-bienestar-dic2020.jpg",
-    Frase: "Datazo! En psicología se conoce como residuo de atención "
+    Image:
+      "https://mupitiactualidad.com/wp-content/uploads/2020/12/salud-y-bienestar-dic2020.jpg",
+    Frase: "Datazo! En psicología se conoce como residuo de atención ",
   },
 ];
 
@@ -122,8 +123,7 @@ let tecnicas = [
     Title: "1. Técnica Pomodoro",
     Description:
       "Divide tu trabajo en sesiones de 25 minutos y descansos de 5 minutos. Después de 4 ciclos, tomas un descanso de 20 minutos.",
-    Image:
-      "https://www.todoist.com/_astro/pomodoro-technique_ZOKrSO.webp",
+    Image: "https://www.todoist.com/_astro/pomodoro-technique_ZOKrSO.webp",
     Link: "",
   },
   {
@@ -138,12 +138,51 @@ let tecnicas = [
   },
   {
     Name: "tTres",
-    Title:
-      "3. Lista de tareas",
+    Title: "3. Lista de tareas",
     Description:
       "Una lista de tareas es la herramienta definitiva para priorizar. Te permite visualizar el camino, evitar el multitasking y garantizar que tu energía se dirija a lo que realmente importa antes de caer en el scroll infinito.",
     Image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnoBpkpPgcJvlGqU7retgI-u8LSfaEcM6ULg&s",
     Link: "",
+  },
+];
+
+// ----------------- cuida tu cuerpo ---------------
+
+let sectionsCTC = [
+  {
+    Name: "sectUno",
+    Title: "Adiós a la fatiga visual",
+    Description: `<h3>Regla 20-20-20: Bienestar para tus ojos</h3>
+    <p>
+        Debido al uso intensivo de pantallas, se ha impulsado la regla <strong>20-20-20</strong>.
+        Esta técnica es fundamental para combatir la fatiga visual digital y proteger tu salud ocular:
+    </p><br/>
+
+    <p> <strong>Cada 20 minutos:</strong> Haz una pausa en tu dispositivo.</p><br/>
+    <p> <strong>Durante 20 segundos:</strong> Permite que tus ojos descansen.</p><br/>
+    <p> <strong>Mira a 20 pies (6 metros):</strong> Enfoca un objeto a lo lejos para relajar los músculos del ojo.</p>`,
+    Image: "src/gafas de pescado.gif",
+    Frase:
+      "Aplicar la regla <b>20-20-20</b> reduce el dolor de cabeza y la fatiga mental.<br />No esperes a que te ardan los ojos para parar. </br> </br> </br>" +
+      `<a class="btn-moderno" id="calendario" href="https://calendar.google.com/calendar/u/0/r" target="_blank" >Prográmate</a>`,
+  },
+];
+
+let sectionsCTC2 = [
+  {
+    Name: "sectDos",
+    Title: "Tu postura es muy importante",
+    Description: `1. Cuello Recto <br/>
+      2. Pantalla a la altura de los Ojos<br/>
+      3. Codos y rodillas a 90 grados <br/>
+      4. manos relajadas<br/>
+      5. Espalda apoyada<br/>
+      6. Pies planos<br/>`,
+    Image: "src/INFOGRAFIA-07.jpg",
+    Frase: `"No sacrifiques tu espalda por el estilo.<br />
+      Un monitor a la altura de los ojos y una planta en tu escritorio pueden
+      cambiar tu forma de estudiar. <br />¡Tu setup debe ser tu santuario, no tu
+      tortura!"`,
   },
 ];

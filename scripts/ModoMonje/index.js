@@ -33,7 +33,7 @@ function cargarVistaIndex() {
 }
 
 
-let started = false;
+started = false;
 
 function startCounter() {
     let time = 47;
@@ -55,7 +55,7 @@ function startCounter() {
 }
 
 // detectar cuando aparece en pantalla
-const observer = new IntersectionObserver(entries => {
+observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting && !started) {
             started = true;
