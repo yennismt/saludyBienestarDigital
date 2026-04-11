@@ -235,26 +235,23 @@ let sectionsB = [
 let sectionsJ = [
   {
     Name: "sectUno",
-    Title: "El Antídoto",
-    Description: `Es la ansiedad persistente por sentir que otros tienen experiencias gratificantes de las que uno está ausente.`,
+    Title: "El miedo a perderse algo (FOMO).",
+    Description: `¿Qué es el FOMO? Es la ansiedad persistente por sentir que otros tienen experiencias gratificantes de las que uno está ausente.`,
     Image:
       "https://noeliaperezpsicologa.com/wp-content/uploads/2025/04/FOMO.jpg",
   },
-
   {
     Name: "sectDos",
-    Title:
-      "Cómo evitar que hackeen tu cuenta de la universidad o tus cuentas en redes sociales",
-    Description: `No dejes que el contenido de otros dicte tu felicidad. Construye tus propias vivencias y 
-    utiliza las redes sociales solo como una fuente de inspiración, 
-    no como una obligación o un estándar de comparación.`,
+    Title: "El Antídoto",
+    Description: `No dejes que el contenido de otros dicte tu felicidad. 
+    Construye tus propias vivencias y utiliza las redes sociales solo 
+    como una fuente de inspiración, no como una obligación o un estándar de comparación`,
     Image:
       "https://cdn.shopify.com/b/shopify-brochure2-assets/5881867e98635d4b50776c45d5f3f4d6.jpg",
   },
-
   {
     Name: "sectTres",
-    Title: "lista de actividades offline",
+    Title: "Lista de actividades offline",
     Description: `
       1. Visitar un café "aesthetic" <br />
       2. Hacer un picnic <br />
@@ -277,7 +274,7 @@ let sectionsJ = [
       19. Realiza voluntariados <br />
       20. Asiste a una pijamada `,
     Image: "https://www.padinthecity.com/img/blog/app-para-lista-de-tareas.jpg",
-    Frase: `Únete al club del JOMO el placer de perderse de algo`,
+    Frase: `Únete al club del JOMO, el placer de perderse de algo 😎`,
   },
 
   {
@@ -294,14 +291,14 @@ let sectionsJ = [
   },
 ];
 
-
 let cardsJOMO = [
   {
     Name: "tUno",
     Title: "Fundación nacional del sueño",
     Description:
       "La National Sleep Foundation es una organización independiente sin fines de lucro, dedicada a mejorar la salud y el bienestar mediante el fomento de la salud del sueño.",
-    Image: "https://cajasaludmza.ar/wp-content/uploads/2022/08/pensamientos.png",
+    Image:
+      "https://cajasaludmza.ar/wp-content/uploads/2022/08/pensamientos.png",
     Link: "https://www-thensf-org.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc",
   },
   {
@@ -314,5 +311,4 @@ let cardsJOMO = [
       "https://domf5oio6qrcr.cloudfront.net/medialibrary/15482/84a94716-a2cf-4a06-8731-d1624bcd1d6b.jpg",
     Link: "https://www.health.harvard.edu/healthy-aging-and-longevity/blue-light-has-a-dark-side",
   },
-  
 ];
