@@ -186,3 +186,133 @@ let sectionsCTC2 = [
       tortura!"`,
   },
 ];
+
+//--------------------- Blindaje ----------------------
+
+let sectionsB = [
+  {
+    Name: "sectUno",
+    Title: "Tu huella digital nunca desaparece",
+    Description: `Lo que publicas hoy y tu futuro profesional y el impacto de tu huella digital <br />
+    Se entiende como la reputación que construyes en la red a través de comentarios, videos y fotografías. Debes ser consciente de que, una vez compartes contenido desde tu perfil, 
+    pierdes el control sobre él: puede ser difundido, capturado o descargado sin posibilidad de eliminar su rastro al 100%. 
+    Por ello, la prudencia es vital; incluso sin mala intención, lo que publicas hoy puede jugar en tu contra mañana.`,
+    Image: "src/HuellaDigital.png",
+    Frase:
+      "Otros podrán tener posesión de ese contenido digital, por tanto, replicarlo de forma rápida y a través de distintas plataformas o canales, lo que se conoce como viralización (Unicef, 2020).",
+  },
+
+  {
+    Name: "sectDos",
+    Title:
+      "Cómo evitar que hackeen tu cuenta de la universidad o tus cuentas en redes sociales",
+    Description: `Estudios recientes demuestran que contraseñas como «123456» siguen siendo alarmantemente comunes. Muchos usuarios creen 
+    que son inmunes a los ataques cibernéticos, pero el riesgo es real. Ten en cuenta que incluir una mayúscula o un número no es 
+    suficiente si utilizas datos fáciles de descifrar (como fechas de nacimiento o nombres). 
+    Una contraseña que parece segura, pero es predecible, sigue siendo una puerta abierta para el robo de información.`,
+    Image:
+      "https://dplnews.com/wp-content/uploads/2023/04/dplnews-ciberseguridad-dispositivo-jb020123-scaled.jpeg",
+  },
+
+  {
+    Name: "sectTres",
+    Title: "!Una contraseña segura¡",
+    Description: `
+      <p> <strong> 1. Extensión estratégica: </strong>  Tu contraseña debe tener al menos 12 caracteres. Recuerda: entre más larga sea, más tiempo le tomará a un software malicioso descifrarla.</p><br/>
+      <p> <strong> 2. Diversidad de caracteres: </strong>  Combina letras mayúsculas y minúsculas, incluye números y utiliza símbolos (como $, &, # o !). Esta mezcla crea una barrera mucho más fuerte.</p><br/>
+      <p> <strong> 3. Cero datos personales:</strong>  Evita incluir fechas de nacimiento, nombres, apellidos o datos de tu mascota. Esta información es pública en tu huella digital y es lo primero que un atacante intentará usar.</p><br/>
+      <p> <strong> 4. Originalidad total: </strong> No recicles contraseñas antiguas ni hagas cambios mínimos (como solo cambiar el año al final). Cada cuenta debe tener una identidad única.</p><br/>
+      <p> <strong> 5. El equilibrio perfecto: </strong> Busca una combinación que sea fácil de recordar para ti, pero imposible de adivinar para los demás.</p>
+    `,
+    Image:
+      "https://digitalcubik.com/wp-content/uploads/2022/05/como-hacer-una-contrasena-segura.jpg",
+    Frase: `Challenge: del 1 al 10 qué tan segura es tu contraseña`,
+  },
+];
+
+//--------------------- JOMO ----------------------
+
+let sectionsJ = [
+  {
+    Name: "sectUno",
+    Title: "El Antídoto",
+    Description: `Es la ansiedad persistente por sentir que otros tienen experiencias gratificantes de las que uno está ausente.`,
+    Image:
+      "https://noeliaperezpsicologa.com/wp-content/uploads/2025/04/FOMO.jpg",
+  },
+
+  {
+    Name: "sectDos",
+    Title:
+      "Cómo evitar que hackeen tu cuenta de la universidad o tus cuentas en redes sociales",
+    Description: `No dejes que el contenido de otros dicte tu felicidad. Construye tus propias vivencias y 
+    utiliza las redes sociales solo como una fuente de inspiración, 
+    no como una obligación o un estándar de comparación.`,
+    Image:
+      "https://cdn.shopify.com/b/shopify-brochure2-assets/5881867e98635d4b50776c45d5f3f4d6.jpg",
+  },
+
+  {
+    Name: "sectTres",
+    Title: "lista de actividades offline",
+    Description: `
+      1. Visitar un café "aesthetic" <br />
+      2. Hacer un picnic <br />
+      3. Pintar con acuarelas <br />
+      4. Cocinar una receta <br />
+      5. Ir a un mercado de pulgas <br />
+      6. Tomar fotos con cámara analógica<br />
+      7. Hacer cerámica<br />
+      8. Hacer una caminata <br />
+      9. Organizar una cena temática<br />
+      10. Ver el atardecer<br />
+      11. Tomar un taller de escritura creativa<br />
+      12. Ir a museos <br />
+      13. Tomar un curso de maquillaje<br />
+      14. Jugar bolos <br />
+      15. Alquilar una finca (donde no exista señal de celular)<br />
+      16. Visitar un parque de atracciones extremas<br />
+      17. Ir a pilates / gimnasio <br />
+      18. Ver una función de teatro <br />
+      19. Realiza voluntariados <br />
+      20. Asiste a una pijamada `,
+    Image: "https://www.padinthecity.com/img/blog/app-para-lista-de-tareas.jpg",
+    Frase: `Únete al club del JOMO el placer de perderse de algo`,
+  },
+
+  {
+    Name: "sectCuatro",
+    Title: "Desintoxicación Digital: El secreto de un buen descanso",
+    Description: `La desintoxicación digital mejora drásticamente la calidad del sueño. 
+    No es saludable irse a la cama y continuar haciendo scroll en las redes sociales; 
+    la luz azul emitida por los celulares en la oscuridad deteriora la visión y altera el ciclo 
+    natural de descanso. Al desconectarse antes de dormir, 
+    permites que tu cerebro se prepare para un sueño profundo y reparador.`,
+    Image:
+      "https://www.polytechnique-insights.com/wp-content/uploads/2025/03/adobestock_975754867-scaled-e1741688614693-1600x600-c-default.jpeg",
+    Frase: `Challenge: del 1 al 10 qué tan segura es tu contraseña`,
+  },
+];
+
+
+let cardsJOMO = [
+  {
+    Name: "tUno",
+    Title: "Fundación nacional del sueño",
+    Description:
+      "La National Sleep Foundation es una organización independiente sin fines de lucro, dedicada a mejorar la salud y el bienestar mediante el fomento de la salud del sueño.",
+    Image: "https://cajasaludmza.ar/wp-content/uploads/2022/08/pensamientos.png",
+    Link: "https://www-thensf-org.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc",
+  },
+  {
+    Name: "tDos",
+    Title: "La luz azul tiene un lado oscuro ",
+    Description:
+      "<b>El Concepto:</b> Identifica tu tarea más importante, difícil o la que más pereza te da (tu 'sapo')<br>" +
+      "<b>La Regla:</b> Hazla a primera hora de la mañana, antes que cualquier otra cosa.",
+    Image:
+      "https://domf5oio6qrcr.cloudfront.net/medialibrary/15482/84a94716-a2cf-4a06-8731-d1624bcd1d6b.jpg",
+    Link: "https://www.health.harvard.edu/healthy-aging-and-longevity/blue-light-has-a-dark-side",
+  },
+  
+];
