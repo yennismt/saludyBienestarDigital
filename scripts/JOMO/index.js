@@ -23,7 +23,7 @@ function cargarVistaIndex() {
       $("#card").attr("href", item.Link);
       $("#card").attr("id", item.Name);
       $(`#${item.Name} .card-title`).text(item.Title);
-      $(`#${item.Name} .card-description`).text(item.Description);
+      $(`#${item.Name} .card-description`).append(item.Description);
       $(`#${item.Name} .card-image `).attr("src", item.Image);
     });
   });
