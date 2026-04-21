@@ -11,8 +11,9 @@ html {
 .cards-list {
   display: grid;
   /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
-  grid-template-columns: repeat(3, 400px);
-  gap: 100px;
+  /* grid-template-columns: repeat(3, 400px); */
+  grid-auto-flow: column;
+  /* gap: 100px; */
 }
  
 .cards {
@@ -32,18 +33,20 @@ html {
   width: 100%;
   display: block;
   transform: scaleX(-1);
+  margin-top: -100px;
 }
 
-.mixImge {
-  position: relative;
+.mixImage {
+  height: 500px;
+  overflow: hidden;
 }
 
 .imgeText {
   position: absolute;
-  top: 550px;
+  top: 250px;
   left: 50px;
   color: white;
-  font-size: 90px;
+  font-size: 50px;
 }
 
 .centralText {
@@ -61,11 +64,21 @@ html {
   color: #c19beb;
 }
 
+
 @media screen and (max-width: 1600px) {
+ 
+  .cards-list {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
   .imgeText {
     top: 250px;
     left: 20px;
-    font-size: 60px;
+    font-size: 40px;
   }
   .cards-list {
     display: grid;
@@ -78,7 +91,7 @@ html {
   .imgeText {
     top: 150px;
     left: 10px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .cards-list {

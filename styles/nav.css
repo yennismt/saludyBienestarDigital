@@ -4,12 +4,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
-  /* background-image: linear-gradient(
+  /*  background-color: white; */
+  background-image: linear-gradient(
     to right,
     #CADCF6,
-    #72A6ED
-  ); */ 
+    #DBEDFF
+  );  
   height: 100px;
   grid-template-columns: 180px 200px 1fr;
 }
