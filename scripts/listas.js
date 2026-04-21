@@ -123,7 +123,7 @@ let tecnicas = [
     Title: "1. Técnica Pomodoro",
     Description:
       "Divide tu trabajo en sesiones de 25 minutos y descansos de 5 minutos. Después de 4 ciclos, tomas un descanso de 20 minutos.",
-    Image: "https://www.todoist.com/_astro/pomodoro-technique_ZOKrSO.webp",
+    Image: "https://blogs.unitec.mx/hubfs/Imported_Blog_Media/mejora-tu-productividad-con-tecnica-pomodoro-2-3.jpg",
     Link: "",
   },
   {
