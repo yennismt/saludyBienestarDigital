@@ -5,27 +5,24 @@ ul {
   padding: 0;
   overflow: hidden;
   /*  background-color: white; */
-  background-image: linear-gradient(
-    to right,
-    #CADCF6,
-    #DBEDFF
-  );  
+  background-image: linear-gradient(to right, #cadcf6, #dbedff);
   height: 100px;
   grid-template-columns: 180px 200px 1fr;
 }
 
 .buttonSearch {
-  height: 40px; 
+  height: 40px;
   width: 50px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border: 0;
   background-color: white;
 }
-.logo { 
+.logo {
   margin-left: 50px;
-  width: 100px;
-  height: 100px;
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
   background-image: url(../src/Flaticon.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -60,7 +57,7 @@ ul {
 }
 
 .option > a:hover {
-  background-color: #E5CDFE;
+  background-color: #e5cdfe;
 }
 
 * {
@@ -106,10 +103,15 @@ ol {
 }
 
 @media screen and (max-width: 800px) {
-  .logo {
+  /* .logo {
     width: 110px;
     margin-left: 20px;
+  } */
+
+  .textLogo {
+    margin-top: 10px;
   }
+
   .options {
     margin-right: 20px;
   }
@@ -125,10 +127,14 @@ ol {
 }
 
 @media screen and (max-width: 620px) {
-  .logo {
+  /* .logo {
     width: 100px;
     margin-left: 10px;
     margin-right: 5px;
+  } */
+
+  .textLogo {
+    margin-top: 10px;
   }
   .option > a {
     margin-right: 0px;
@@ -146,14 +152,18 @@ ol {
 }
 
 @media screen and (max-width: 470px) {
-  .logo {
+  /* .logo {
     justify-self: center;
     align-self: start;
     height: 40px;
     width: 100px;
     margin-top: 6px;
     grid-column: 1;
+  } */
+   .textLogo {
+    margin-top: 10px;
   }
+  
   .options {
     grid-column: 2 / 3;
     grid-row: 1;

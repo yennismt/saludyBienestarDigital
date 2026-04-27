@@ -8,15 +8,18 @@
     <link rel="stylesheet" href="styles/nav.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/buttom.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap"
     />
+
     <title>Inicio</title>
   </head>
   <body>
     <div id="nav"></div>
-    <div id="dvPrincipal" class="container">
+    <div id="dvPrincipal" class="">
       <div class="mixImage">
         <img
           src="src/Diseña tu propia calma.jpg"
@@ -30,6 +33,278 @@
         </div>
       </div>
 
+      <!-- ════════════════════════════════════════════════════
+     MÓDULO 1 — BIENESTAR DIGITAL
+════════════════════════════════════════════════════ -->
+      <section id="mod1" class="module-section centralText">
+        <div class="container">
+          <div class="module-header">
+            <div class="module-header-text">
+              <p
+                class="caption"
+                data-lang-es="Módulo 01"
+                data-lang-en="Module 01"
+              >
+              </p>
+              <h2
+                class="title"
+                data-lang-es="Bienestar Digital"
+                data-lang-en="Digital Wellness"
+              >
+                Bienestar Digital
+              </h2>
+              <p
+                data-lang-es="Comprende cómo el entorno digital afecta tu salud mental y emocional, y aprende estrategias basadas en evidencia para mantener el equilibrio."
+                data-lang-en="Understand how the digital environment affects your mental and emotional health, and learn evidence-based strategies to maintain balance."
+              >
+                Comprende cómo el entorno digital afecta tu salud mental y
+                emocional, y aprende estrategias basadas en evidencia para
+                mantener el equilibrio.
+              </p>
+            </div>
+            <div
+              class="module-icon-big"
+              style="background: linear-gradient(135deg, #e0fbf8, #b2f5ea)"
+            >
+              🧘
+            </div>
+          </div>
+
+          <!-- Subsección -->
+          <div class="subsection">
+            <h3
+              class="subsection-title"
+              data-lang-es="Salud mental en entornos digitales"
+              data-lang-en="Mental health in digital environments"
+            >
+              Salud mental en entornos digitales
+            </h3>
+            <p
+              class="subsection-subtitle"
+              data-lang-es="Impacto del uso digital en el bienestar psicológico universitario"
+              data-lang-en="Impact of digital use on university psychological wellbeing"
+            >
+              Impacto del uso digital en el bienestar psicológico universitario
+            </p>
+
+            <div class="grid-2">
+              <div>
+                <div class="info-block">
+                  <p
+                    data-lang-es="Según la <strong>Organización Mundial de la Salud (OMS)</strong>, el bienestar digital es la capacidad de mantener una relación equilibrada y saludable con la tecnología. El uso excesivo de pantallas puede aumentar niveles de ansiedad, deteriorar el sueño y reducir la concentración en estudiantes universitarios."
+                    data-lang-en="According to the <strong>World Health Organization (WHO)</strong>, digital wellness is the ability to maintain a balanced and healthy relationship with technology. Excessive screen use can increase anxiety levels, impair sleep, and reduce concentration in university students."
+                  >
+                    Según la
+                    <strong>Organización Mundial de la Salud (OMS)</strong>, el
+                    bienestar digital es la capacidad de mantener una relación
+                    equilibrada y saludable con la tecnología. El uso excesivo
+                    de pantallas puede aumentar niveles de ansiedad, deteriorar
+                    el sueño y reducir la concentración en estudiantes
+                    universitarios.
+                  </p>
+                  <span
+                    class="source-tag"
+                    data-lang-es="Fuente: OMS, Mental Health Action Plan 2013–2030"
+                    data-lang-en="Source: WHO, Mental Health Action Plan 2013–2030"
+                    >Fuente: OMS, Mental Health Action Plan 2013–2030</span
+                  >
+                </div>
+
+                <div class="stats-row">
+                  <div class="stat-card">
+                    <div class="stat-num">6h+</div>
+                    <div
+                      class="stat-label"
+                      data-lang-es="Uso diario promedio de pantalla en universitarios"
+                      data-lang-en="Average daily screen time in university students"
+                    >
+                      Uso diario promedio universitarios
+                    </div>
+                  </div>
+                  <div class="stat-card">
+                    <div class="stat-num">42%</div>
+                    <div
+                      class="stat-label"
+                      data-lang-es="Estudiantes con síntomas de ansiedad digital"
+                      data-lang-en="Students with digital anxiety symptoms"
+                    >
+                      Estudiantes con ansiedad digital
+                    </div>
+                  </div>
+                  <div class="stat-card">
+                    <div class="stat-num">73%</div>
+                    <div
+                      class="stat-label"
+                      data-lang-es="Sienten FOMO (miedo a perderse algo)"
+                      data-lang-en="Experience FOMO (fear of missing out)"
+                    >
+                      Sienten FOMO online
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div
+                  class="illus"
+                  style="
+                    min-height: 260px;
+                    background: linear-gradient(135deg, #e0fbf8, #c7f9ee);
+                  "
+                >
+                  <div class="illus-emoji">🧠💻</div>
+                  <span
+                    class="illus-label"
+                    data-lang-es="Salud mental & tecnología"
+                    data-lang-en="Mental health & technology"
+                    >Salud mental & tecnología</span
+                  >
+                </div>
+                <div
+                  class="video-placeholder mt-16"
+                  onclick="showVideoMsg(this)"
+                >
+                  <div class="play-btn">▶</div>
+                  <strong
+                    data-lang-es="Bienestar digital explicado"
+                    data-lang-en="Digital wellness explained"
+                    >Bienestar digital explicado</strong
+                  >
+                  <span
+                    data-lang-es="Video OMS · 4 min"
+                    data-lang-en="WHO Video · 4 min"
+                    >Video OMS · 4 min</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Tarjetas interactivas flip -->
+            <h4
+              class="subtitle mt-32 mb-16"
+              data-lang-es="🃏 Tarjetas interactivas — toca para revelar"
+              data-lang-en="🃏 Interactive cards — tap to reveal"
+            >
+              🃏 Tarjetas interactivas — toca para revelar
+            </h4>
+            <div class="flip-grid">
+              <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-inner">
+                  <div class="flip-front">
+                    <div class="fi">😰</div>
+                    <h4
+                      data-lang-es="Ansiedad Digital"
+                      data-lang-en="Digital Anxiety"
+                    >
+                      Ansiedad Digital
+                    </h4>
+                    <p data-lang-es="¿Qué es?" data-lang-en="What is it?">
+                      ¿Qué es?
+                    </p>
+                    <p class="flip-hint">👆 toca</p>
+                  </div>
+                  <div class="flip-back">
+                    <p
+                      data-lang-es="Estado de malestar causado por el uso compulsivo de dispositivos digitales. Se manifiesta como irritabilidad al no tener acceso al teléfono y revisión constante de notificaciones."
+                      data-lang-en="Discomfort caused by compulsive use of digital devices. Manifests as irritability when lacking phone access and constant notification checking."
+                    >
+                      Estado de malestar causado por el uso compulsivo de
+                      dispositivos digitales.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-inner">
+                  <div class="flip-front">
+                    <div class="fi">📵</div>
+                    <h4 data-lang-es="Nomofobia" data-lang-en="Nomophobia">
+                      Nomofobia
+                    </h4>
+                    <p
+                      data-lang-es="¿Qué significa?"
+                      data-lang-en="What does it mean?"
+                    >
+                      ¿Qué significa?
+                    </p>
+                    <p class="flip-hint">👆 toca</p>
+                  </div>
+                  <div class="flip-back">
+                    <p
+                      data-lang-es="Miedo irracional a quedarse sin teléfono móvil. Afecta al 66% de los adultos jóvenes según estudios de la Universidad de Iowa."
+                      data-lang-en="Irrational fear of being without a mobile phone. Affects 66% of young adults according to University of Iowa studies."
+                    >
+                      Miedo irracional a quedarse sin teléfono móvil. Afecta al
+                      66% de adultos jóvenes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-inner">
+                  <div class="flip-front">
+                    <div class="fi">😴</div>
+                    <h4
+                      data-lang-es="Higiene del Sueño"
+                      data-lang-en="Sleep Hygiene"
+                    >
+                      Higiene del Sueño
+                    </h4>
+                    <p
+                      data-lang-es="¿Cómo afecta?"
+                      data-lang-en="How does it affect?"
+                    >
+                      ¿Cómo afecta?
+                    </p>
+                    <p class="flip-hint">👆 toca</p>
+                  </div>
+                  <div class="flip-back">
+                    <p
+                      data-lang-es="La luz azul de pantallas suprime la melatonina hasta en 23%. Evitar dispositivos 1 hora antes de dormir mejora la calidad del sueño significativamente."
+                      data-lang-en="Screen blue light suppresses melatonin by up to 23%. Avoiding devices 1 hour before sleep significantly improves sleep quality."
+                    >
+                      La luz azul suprime la melatonina hasta en 23%.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card" onclick="this.classList.toggle('flipped')">
+                <div class="flip-inner">
+                  <div class="flip-front">
+                    <div class="fi">🌿</div>
+                    <h4
+                      data-lang-es="Descanso Digital"
+                      data-lang-en="Digital Rest"
+                    >
+                      Descanso Digital
+                    </h4>
+                    <p
+                      data-lang-es="¿Cómo lograrlo?"
+                      data-lang-en="How to achieve it?"
+                    >
+                      ¿Cómo lograrlo?
+                    </p>
+                    <p class="flip-hint">👆 toca</p>
+                  </div>
+                  <div class="flip-back">
+                    <p
+                      data-lang-es="Periodos planificados sin tecnología. La OMS recomienda al menos 1 hora al día de tiempo libre de pantallas para adultos jóvenes."
+                      data-lang-en="Planned periods without technology. WHO recommends at least 1 screen-free hour daily for young adults."
+                    >
+                      Periodos planificados sin tecnología. La OMS recomienda al
+                      menos 1 hora al día.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsección 1.2 -->
+         
+        </div>
+      </section>
+
       <div class="centralText">
         <div class="initialtext">
           No se trata de desconectarse del mundo,<br />
@@ -40,6 +315,61 @@
       </div>
 
       <div id="sections"></div>
+
+      <!-- ════════════════════════════════════════════════════
+     QUIZ INTERACTIVO
+════════════════════════════════════════════════════ -->
+      <section
+        id="quiz-section"
+        class="section centralText"
+        style="
+          background: linear-gradient(135deg, #e5cdfe, #72a6ed, #2b3357);
+          padding: 80px 0;
+        "
+      >
+        <div class="container">
+          <div class="text-center mb-32">
+            <p
+              class="caption"
+              style="color: var(--mint)"
+              data-lang-es="Elemento interactivo"
+              data-lang-en="Interactive element"
+            >
+              Elemento interactivo
+            </p>
+            <h2
+              class="title"
+              style="color: #fff"
+              data-lang-es="¿Cuánto sabes sobre bienestar digital?"
+              data-lang-en="How much do you know about digital wellness?"
+            >
+              ¿Cuánto sabes sobre bienestar digital?
+            </h2>
+            <p
+              style="color: rgba(255, 255, 255, 0.6); margin-top: 8px"
+              data-lang-es="10 preguntas · Contenido bilingüe · Retroalimentación inmediata"
+              data-lang-en="10 questions · Bilingual content · Immediate feedback"
+            >
+              10 preguntas · Contenido bilingüe · Retroalimentación inmediata
+            </p>
+          </div>
+
+          <div
+            class="quiz-wrap"
+            id="quiz-container"
+            style="max-width: 700px; margin: 0 auto"
+          >
+            <div class="quiz-progress-bar">
+              <div
+                class="quiz-progress-fill"
+                id="quiz-progress"
+                style="width: 10%"
+              ></div>
+            </div>
+            <div id="quiz-content"><!-- rendered by JS --></div>
+          </div>
+        </div>
+      </section>
 
       <div class="cards">
         <div id="podcastCard" class="cards-list"></div>
