@@ -66,14 +66,6 @@ function cargarModulo(id) {
     $.get(ruta, function (data) {
       $("#dvPrincipal").append(data);
 
-      $(".section").each(function () {
-        if (colors.length === 0) return;
-
-        const index = Math.floor(Math.random() * colors.length);
-        const randomColor = colors.splice(index, 1)[0];
-
-        $(this).css("background-color", randomColor);
-      });
     });
   }
 }
